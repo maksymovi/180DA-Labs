@@ -52,11 +52,15 @@ client.on_disconnect = on_disconnect
 client.on_message = on_message
 
 # 2. connect to a broker using one of the connect*() functions.
-client.connect_async('mqtt.eclipse.org')
+#client.connect_async('mqtt.eclipse.org')
+client.connect_async('mqtt.eclipseprojects.io')
+
 # client.connect("mqtt.eclipse.org")
+
+
 # 3. call one of the loop*() functions to maintain network traffic flow with the broker.
 client.loop_start()
-# client.loop_forever()
+#client.loop_forever()
 while True:
 	pass
 
