@@ -12,7 +12,7 @@ def on_connect(client, userdata, flags, rc):
 
 # reconnect then subscriptions will be renewed.
 
-	client.subscribe("ece180d/test", qos=1)
+	client.subscribe("ece180d/team1", qos=1)
 
 # The callback of the client when it disconnects.
 

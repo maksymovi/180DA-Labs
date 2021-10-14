@@ -67,7 +67,7 @@ client.loop_start()
 # payload must be a string, bytearray, int, float or None.
 
 for i in range(10):
-    client.publish('ece180d/test', float(np.random.random(1)), qos=1)
+    client.publish('ece180d/team1', float(np.random.random(1)), qos=1)
 
 
 # 6. use disconnect() to disconnect from the broker.
